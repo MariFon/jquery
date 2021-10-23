@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="blueimp-Gallery/css/blueimp-gallery.min.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1 id="titulo">jQuery-Plugin-Blueimp-gallery</h1>
+
+    <!-- The Gallery as lightbox dialog, should be a document body child element -->
+<div
+id="blueimp-gallery"
+class="blueimp-gallery"
+aria-label="image gallery"
+aria-modal="true"
+role="dialog"
+>
+<div class="slides" aria-live="polite"></div>
+<h3 class="title"></h3>
+<a
+  class="prev"
+  aria-controls="blueimp-gallery"
+  aria-label="previous slide"
+  aria-keyshortcuts="ArrowLeft"
+></a>
+<a
+  class="next"
+  aria-controls="blueimp-gallery"
+  aria-label="next slide"
+  aria-keyshortcuts="ArrowRight"
+></a>
+<a
+  class="close"
+  aria-controls="blueimp-gallery"
+  aria-label="close"
+  aria-keyshortcuts="Escape"
+></a>
+<a
+  class="play-pause"
+  aria-controls="blueimp-gallery"
+  aria-label="play slideshow"
+  aria-keyshortcuts="Space"
+  aria-pressed="false"
+  role="button"
+></a>
+<ol class="indicator"></ol>
+</div>
+<div id="links">
+    <a href="imagens/imagem1.png" title="Natal1">
+      <img src="imagens/imagem1.png" alt="Natal1" />
+    </a>
+    <a href="imagens/imagem2.png" title="Natal2">
+      <img src="imagens/imagem2.png" alt="Natal2" />
+    </a>
+    <a href="imagens/imagem4.png" title="Natal4">
+        <img src="imagens/imagem4.png" alt="Natal4" />
+      </a>
+    <a href="imagens/imagem3.png" title="Natal3">
+      <img src="imagens/imagem3.png" alt="Natal3" />
+    </a>
+    
+  </div>
+  
+    <a class="link-video" href="https://www.youtube.com/watch?v=UrWmKH2s02s">Video</a>
+
+    <script src="js/jquery.js"></script>
+    <script src="blueimp-Gallery/js/blueimp-gallery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
